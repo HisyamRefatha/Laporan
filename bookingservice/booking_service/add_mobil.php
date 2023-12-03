@@ -38,14 +38,14 @@ if (!isset($_SESSION['login'])) {
     </section>
     <!-- end header section -->
 
-    <section>
-        <h1 class="heading-title">Form service mobil</h1>
+    <!-- <section>
+        <h1 class="heading-title">Form service mobil</h1> -->
 
-        <div class="booking">
+        <!-- <div class="booking">
             <form method="post" action="create_mobil.php" class="book-form">
-                <div class="flex">
+                <div class="flex"> -->
                     <!-- input starts -->
-                    <div class="inputBox">
+                    <!-- <div class="inputBox">
                         <label>Tipe mobil</label>
                         <input type="text" name="mobil_type" placeholder="Tipe Mobil Anda" require>
                     </div>
@@ -78,6 +78,43 @@ if (!isset($_SESSION['login'])) {
                         <label>jam booking</label>
                         <input type="time" name="mobil_booking_wkt" require>
                     </div>
+                </div> -->
+                <!-- end input -->
+                <!-- <input type="submit" name="save" value="save" class="btn">
+                <input type="reset" name="reset" value="reset" class="btn">
+                <p><a href="read_mobil.php">CANCEL</a></p> -->
+            <!-- </form>
+        </div>
+    </section> -->
+
+    <section>
+        <h1 class="heading-title">Form Absen Siswa</h1>
+
+        <div class="booking">
+            <form method="post" action="create_siswa.php" class="book-form">
+                <div class="flex">
+                    <!-- input starts -->
+                    <div class="inputBox">
+                        <label>Nisn</label>
+                        <input type="text" name="mobil_type" placeholder="32112354" require>
+                    </div>
+                    <div class="inputBox">
+                        <label>Nama Lengkap</label>
+                        <input type="text" name="mobil_no_plat" placeholder="Yanto Sudirman" required>
+                    </div>
+                    <div class="inputBox">
+                        <label>Asal Sekolah</label>
+                        <input type="text" name="mobil_komplain" placeholder="SMK IGASAR PINDAD BANDUNG" require>
+                    </div>
+                    <div class="inputBox">
+                        <label>Jurusan</label>
+                        <input type="text" name="mobil_owner" placeholder="Rekayasan Perangkat Lunak"
+                            require>
+                    </div>
+                    <!-- <div class="inputBox">
+                        <label>Foto</label>
+                        <input type="file" name="mobil_address" placeholder="" required></input>
+                    </div> -->
                 </div>
                 <!-- end input -->
                 <input type="submit" name="save" value="save" class="btn">

@@ -1,7 +1,7 @@
 <?php
 $db_host = 'localhost';
 $db_username = 'root';
-$db_password = '';
+$db_password = 'root'; //hapus root na hungkl
 $db_name = 'booking_service_db';
 
 ($db_connection = mysqli_connect($db_host, $db_username, $db_password)) or
